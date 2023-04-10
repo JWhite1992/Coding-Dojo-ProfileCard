@@ -1,0 +1,112 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.body{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 1669px;
+    border: solid white;
+}
+.top-row{
+    display: block;
+    text-align: center;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+.Column1{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 500px;
+    margin-top: 10px;
+    margin-right: 5px;
+    background-color: white;
+}
+.block{
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 300px;
+    width: 500px;
+    border: thin solid black;
+    margin-bottom: 5px;
+}
+.user{
+    width: 25px;
+    height: 25px;
+}
+.edit{
+    color: blue;
+    text-decoration: underline;
+}
+.top-nav{
+    background-color: aqua;
+    width: 500px;
+    height: 80px;
+}
+.block1{
+    height: 200px;
+    width: 500px;
+    border: thin solid black;
+    margin-top: 5px;
+}
+.banner1{
+    color: white;
+    background-color: gray;
+    height: 80px;
+    width: 500px;
+    text-align: start;
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+}
+.Column2{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 400px;
+    margin-top: 10px;
+    background-color: white;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+    width: 400px;
+    margin: 5px;
+    border: thin solid black;
+}
+.banner{
+    color: white;
+    background-color: gray;
+    height: 80px;
+    width: 400px;
+    text-align: center;
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+}
+#lista{
+    font-size: medium;
+    text-align: center;
+}
+#listb{
+    font-size: medium;
+    text-align: center;
+}
+button{
+    color: white;
+    background-color: aqua;
+    border-radius: 25px 25px 25px 25px;
+    padding: 5px;
+    margin-bottom: 5px;
+}
